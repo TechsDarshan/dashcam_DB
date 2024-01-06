@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "dashcam")(type "KiCad")(uri "${KIPRJMOD}/dashcam.pretty")(options "")(descr ""))
+  (lib (name "ATTINY85-20SU")(type "KiCad")(uri "C:/Users/darsh/OneDrive/Desktop/ATTINY85-20SU")(options "")(descr ""))
+)
