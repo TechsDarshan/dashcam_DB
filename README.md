@@ -17,9 +17,8 @@ At Daughter Board:
 |GND|GND|
 
 # Code Building:
-## Attiny85 is is flashed with neo.ino
+## Attiny85 is flashed with neo.ino
  Use the 6 pin ISP programming port to flash/change the code.
-
 
 ##LED Controller library can be called to control the state LEDs 1 & 2.
 
