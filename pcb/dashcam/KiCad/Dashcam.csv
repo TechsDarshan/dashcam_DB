@@ -1,0 +1,15 @@
+Reference,Value,Footprint,Qty,Procurment,
+BZ1,Buzzer,Buzzer_Beeper:Buzzer_12x9.5RM7.6,1,"Roland,local",
+"C1, C5-C8",100nF,Capacitor_SMD:C_0603_1608Metric,5,"bgtronics,local",
+"DC_U1, DC_U4",100nF,Capacitor_SMD:C_0603_1608Metric,2,"bgtronics,local",
+FID1-FID4,Fiducial,Fiducial:Fiducial_1mm_Mask2mm,4,-,
+J3,Conn_02x03_Odd_Even,Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical,1,-,
+J4,Conn_01x08_Pin,Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical,1,sunrom,8 pin SMD JST 1.25mm Top Entry Header [6202] : Sunrom Electronics
+"R1, R3, R5",10k,Resistor_SMD:R_0603_1608Metric,3,"bgtronics,local",
+R2,0E,Resistor_SMD:R_0603_1608Metric,1,"bgtronics,local",
+R4,1k,Resistor_SMD:R_0603_1608Metric,1,"bgtronics,local",
+R6-R9,470R,Resistor_SMD:R_0603_1608Metric,4,"bgtronics,local",
+SW1,SW_Push,Button_Switch_SMD:SW_SPST_B3U-3000P,1,mouser,B3U-3000P Omron Electronics | Mouser India
+"U1, U4",WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,2,mouser,COM-16346 SparkFun | Mouser India
+U2,BC547,Package_TO_SOT_SMD:SOT-23,1,robu,BC547 SMD Transistor (Pack of 20) - Robu.in | Indian Online Store | RC Hobby | Robotics
+U3,ATTINY85-20SU,ATTINY85-20SU:SOIC127P798X216-8N,1,mouser,ATTINY85-20SU Microchip Technology | Mouser India
