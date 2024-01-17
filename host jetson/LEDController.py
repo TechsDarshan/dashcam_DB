@@ -7,7 +7,7 @@ class LEDController:
    'NONE': (GPIO.LOW,GPIO.LOW),
    'RED': (GPIO.LOW, GPIO.HIGH),
    'GREEN': (GPIO.HIGH, GPIO.LOW),
-   'ORANGE': (GPIO.HIGH, GPIO.HIGH)
+   'ORANGE':  (GPIO.HIGH, GPIO.HIGH)
   }
 
   def __init__(self):
@@ -46,4 +46,3 @@ if __name__ == '__main__':
       print('Setting LED {} to {}'.format(led, color))
       leds.setColor(led, color)
       time.sleep(1)
-
