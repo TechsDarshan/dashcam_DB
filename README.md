@@ -1,24 +1,26 @@
-
 # Dashcam Daughter board(DDB)
 
 The Dashcam Daughter Board is a sub-board of the Dashcam project. It controls the neopixel indicators, includes a buzzer, and houses a reset button.
 
 ## Connection:
+
 At Daughter Board:
-| JST- DDB  |  Jetson Nano |
+| JST- DDB | Jetson Nano |
 |--|--|
-|  +5v    |   +5v   |
+| +5v | +5v |
 |LED Selector|GPIO15|
 | ValuePin_1|GPIO15|
 |ValuePin_2|GPIO15|
-|Push button    |GPIO15|
+|Push button |GPIO15|
 |Buzzer|GPIO15|
 |NC||
 |GND|GND|
 
 # Code Building:
+
 ## Attiny85 is flashed with neo.ino
- Use the 6 pin ISP programming port to flash/change the code.
+
+Use the 6 pin ISP programming port to flash/change the code.
 
 ##LED Controller library can be called to control the state LEDs 1 & 2.
 
@@ -41,7 +43,7 @@ Set the color of the specified LED.
 
 ### Example code
 
-```python
+````python
 from LEDController import LEDController
   import time
   print("Starting demo now! Press CTRL+C to exit")
@@ -52,3 +54,4 @@ from LEDController import LEDController
       leds.setColor(led, color)
       time.sleep(1)
       ```
+````
