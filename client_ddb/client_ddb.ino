@@ -13,7 +13,7 @@
 #define OUTPUT_PIN 0
 
 Adafruit_NeoPixel pixels(NUM_PIXELS, OUTPUT_PIN, NEO_GRB + NEO_KHZ800);
-const int colors[4][3] = {{0,0,0}, {255, 0, 0}, {0, 255, 0}, {255,165,0}}; 
+const int colors[4][3] = {{0,0,0}, {255, 0, 0}, {0, 255, 0}, {255,165,0}};
 
 void setup() {
  #if defined(__AVR_ATtiny85__) && (F_CPU == 8000000)
@@ -31,8 +31,8 @@ void setup() {
 void loop() {
   const int led = digitalRead(LED_SELECTOR);
   const int (&color)[3] = colors[digitalRead(INPUT2) << 1 | digitalRead(INPUT1)];
-  pixels.setPixelColor(led, color[0], color[1], color[2]); 
+  pixels.setPixelColor(led, color[0], color[1], color[2]);
   pixels.show();
 
-  
+
 }

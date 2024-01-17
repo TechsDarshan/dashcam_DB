@@ -52,4 +52,3 @@ from LEDController import LEDController
       leds.setColor(led, color)
       time.sleep(1)
       ```
-
