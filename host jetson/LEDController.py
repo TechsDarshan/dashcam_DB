@@ -22,7 +22,7 @@ class LEDController:
     def setColor(self, index, color):
         """Set color of the led.
         index = 0 or 1 - to specify the LED whose color should be set.
-        color = one of ('NONE', 'RED', 'GREEN', 'ORANGE')"""
+        color = one of ('NONE', 'RED', 'GREEN', '   ORANGE')"""
         if color in LEDController.COLORS and index in (0, 1):
             values = LEDController.COLORS[color]
             GPIO.output(self.selector_pin, index)
@@ -42,7 +42,7 @@ class LEDController:
 if __name__ == "__main__":
     import time
 
-    print("Starting demo now! Press CTRL+C to exit")
+    print("   Starting demo now! Press CTRL+C to exit")
     leds = LEDController()
     for led in (0, 1):
         for color in LEDController.COLORS:
