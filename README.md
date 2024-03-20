@@ -9,10 +9,10 @@ At Daughter Board:
 |--|--|
 | +5v | +5v |
 |LED Selector|GPIO15|
-| ValuePin_1|GPIO15|
-|ValuePin_2|GPIO15|
-|Push button |GPIO15|
-|Buzzer|GPIO15|
+| ValuePin_1|GPIO16|
+|ValuePin_2|GPIO18|
+|Push button |GPIO19|
+|Buzzer|GPIO20|
 |NC||
 |GND|GND|
 
